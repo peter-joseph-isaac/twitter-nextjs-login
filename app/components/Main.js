@@ -4,7 +4,7 @@ import React from 'react';
 import { signIn, signOut, useSession } from 'next-auth/react';
 
 export default function Main() {
-    const { data: session, status } = useSession();
+    const { data: session } = useSession();
 
     if (!session) {
         return (
@@ -16,6 +16,11 @@ export default function Main() {
     }
 
     return (
-        <div>Logged In</div>
+        <>
+            <div>Logged in!</div>
+            <div>{session.user.name}</div>
+            <div>@{session.user.username}</div>
+            <div><img src={session.user.image} /></div>
+        </>
     )
 };
