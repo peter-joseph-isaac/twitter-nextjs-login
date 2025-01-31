@@ -8,7 +8,10 @@ export default function Main() {
 
     if (!session) {
         return (
-            <div>Not logged in!</div>
+           <>
+            <div>Not Logged In!</div>
+            <button onClick={() => signIn("twitter")}>Sign In With Twitter</button>
+           </>
         )
     }
 
