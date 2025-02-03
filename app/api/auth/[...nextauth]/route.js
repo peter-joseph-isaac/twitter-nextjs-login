@@ -14,7 +14,6 @@ export const authOptions = {
   callbacks: {
     async session({ session, token }) {
       if (token?.user) {
-        console.log(token);
         session.user.id = token.user.id;
         session.user.name = token.user.name;
         session.user.username = token.user.screen_name;
