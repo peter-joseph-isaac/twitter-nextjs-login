@@ -6,7 +6,6 @@ This application demonstrates how to implement Twitter authentication in a Next.
 
 - Twitter OAuth 2.0 authentication
 - Secure session management
-- Responsive design for various devices
 - Built with Next.js for optimal performance
 
 ## Tech Stack
