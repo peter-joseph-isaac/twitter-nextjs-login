@@ -55,10 +55,6 @@ NEXTAUTH_SECRET=YOUR-NEXTAUTH-SECRET
 
 This application uses NextAuth.js for session management. Sessions are securely stored and can be accessed on both client and server-side.
 
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
 ## License
 
 This project is licensed under the MIT License.
