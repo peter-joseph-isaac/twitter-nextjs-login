@@ -35,10 +35,10 @@ cd twitter-nextjs-login
  npm install 
 
 3. Set up environment variables:
-Create a `.env` file in the root directory and add the following:
-TWITTER_CLIENT_ID=YOUR-TWITTER-CLIENT-ID
-TWITTER_CLIENT_SECRET=YOUR-TWITTER-CLIENT-SECRET
-NEXTAUTH_SECRET=YOUR-NEXTAUTH-SECRET
+Create a `.env` file in the root directory and add the following:  
+TWITTER_API_KEY=YOUR-TWITTER-API-KEY 
+TWITTER_API_SECRET=YOUR-TWITTER-API-SECRET  
+NEXTAUTH_SECRET=YOUR-NEXTAUTH-SECRET  
 
 4. Run the development server:
  npm run dev 
