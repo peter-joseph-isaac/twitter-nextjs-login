@@ -2,6 +2,9 @@
 
 This application demonstrates how to implement Twitter authentication in a Next.js project using NextAuth.js. It provides a seamless login experience and efficient session management for users.
 
+## Live Demo  
+https://twitter-nextjs-login.vercel.app  
+
 ## Features
 
 - Twitter OAuth 2.0 authentication
