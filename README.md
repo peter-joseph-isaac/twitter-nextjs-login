@@ -1,4 +1,4 @@
-# Next.js Twitter Authentication App
+# Next.js Twitter (X) Authentication App
 
 This application demonstrates how to implement Twitter authentication in a Next.js project using NextAuth.js. It provides a seamless login experience and efficient session management for users.
 
